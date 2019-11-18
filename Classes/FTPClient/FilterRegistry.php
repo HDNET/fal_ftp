@@ -38,7 +38,7 @@ class FilterRegistry implements SingletonInterface {
 	/**
 	 * @var array<\AdGrafik\FalFtp\FTPClient\Filter\FilterInterface> $filter
 	 */
-	protected $filter;
+	protected $filter = [];
 
 	/**
 	 * Initialize object.

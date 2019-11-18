@@ -38,7 +38,7 @@ class ParserRegistry implements SingletonInterface {
 	/**
 	 * @var array<\AdGrafik\FalFtp\FTPClient\Parser\ParserInterface> $parser
 	 */
-	protected $parser;
+	protected $parser = [];
 
 	/**
 	 * Initialize object.
