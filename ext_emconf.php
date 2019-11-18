@@ -16,39 +16,20 @@ $EM_CONF[$_EXTKEY] = array (
 	'category' => 'plugin',
 	'shy' => 0,
 	'version' => '1.3.0',
-	'dependencies' => 'cms,version',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
 	'state' => 'stable',
 	'uploadfolder' => 0,
-	'createDirs' => '',
-	'modify_tables' => '',
 	'clearcacheonload' => 1,
-	'lockType' => '',
 	'author' => 'Arno Dudek',
 	'author_email' => 'webmaster@adgrafik.at',
 	'author_company' => 'ad:grafik',
 	'CGLcompliance' => NULL,
 	'CGLcompliance_note' => NULL,
-	'constraints' => 
+	'constraints' =>
 	array (
-		'depends' => 
+		'depends' =>
 		array (
-			'cms' => '',
-			'version' => '',
-			'typo3' => '7.4.0-7.6.99',
+			'typo3' => '8.7.0-9.5.99',
 		),
-		'conflicts' => 
-		array (
-		),
-		'suggests' => 
-		array (
-		),
-	),
-	'suggests' => 
-	array (
 	),
 );
 
